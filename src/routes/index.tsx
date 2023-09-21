@@ -7,7 +7,9 @@ export const router_items: object[] = [
     path: '/',
     element: <Navigate to="/layout/home" />,
     label: '首页',
-    key:'/'
+    key: '/',
+    hidden: true,
+    children:[]
   },
   {
     path: '/layout',
